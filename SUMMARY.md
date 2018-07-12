@@ -3,6 +3,44 @@
 - [前言](README.md)
 - [概览](overview.md)
 - [结构](/clipperlib/clipperlib.md)
-  - [ClipperBase](/clipperlib/classes/ClipperBase/ClipperBase.md)
-  - [Clipper](/clipperlib/classes/Clipper/Clipper.md)
-  - [ClipperOffset](/clipperlib/classes/ClipperOffset/ClipperOffset.md)
+  - [预定义宏](/clipperlib/预定义宏.md)
+  - [数据类型]
+    - [cInt](/clipperlib/types/cInt.md)
+	- [IntPoint](/clipperlib/types/IntPoint.md)
+	- [Path](/clipperlib/types/Path.md)
+	- [Paths](/clipperlib/types/Paths.md)
+	- [IntRect](/clipperlib/types/IntRect.md)
+	- [ClipType](/clipperlib/types/ClipType.md)
+	- [PolyType](/clipperlib/types/PolyType.md)
+	- [PolyFillType](/clipperlib/types/PolyFillType.md)
+	- [JoinType](/clipperlib/types/JoinType.md)
+	- [EndType](/clipperlib/types/EndType.md)
+	- [ZFillFunction](/clipperlib/types/ZFillFunction.md)
+  - [类]  
+    - [ClipperBase](/clipperlib/classes/ClipperBase/ClipperBase.md)
+	  - [函数]
+	    - [ClipperBase.AddPath](/clipperlib/classes/ClipperBase/ClipperBase.AddPath.md)
+		- [ClipperBase.AddPaths](/clipperlib/classes/ClipperBase/ClipperBase.AddPaths.md)
+		- [ClipperBase.Clear](/clipperlib/classes/ClipperBase/ClipperBase.Clear.md)
+		- [ClipperBase.GetBounds](/clipperlib/classes/ClipperBase/ClipperBase.GetBounds.md)
+    - [Clipper](/clipperlib/classes/Clipper/Clipper.md)
+	  - [函数]
+	    - [Clipper.Constructor](/clipperlib/classes/Clipper/Clipper.Constructor.md)
+		- [Clipper.Execute](/clipperlib/classes/Clipper/Clipper.Execute.md)
+      - [属性]	  
+	    - [Clipper.PreserveCollinear](/clipperlib/classes/Clipper/Clipper.PreserveCollinear.md)
+		- [Clipper.StrictlySimple](/clipperlib/classes/Clipper/Clipper.StrictlySimple.md)
+		- [Clipper.ReverseSolution](/clipperlib/classes/Clipper/Clipper.ReverseSolution.md)
+    - [ClipperOffset](/clipperlib/classes/ClipperOffset/ClipperOffset.md)
+	  - [函数]
+	    - [ClipperOffset.AddPath](/clipperlib/classes/ClipperOffset/ClipperOffset.AddPath.md)
+		- [ClipperOffset.AddPaths](/clipperlib/classes/ClipperOffset/ClipperOffset.AddPaths.md)
+		- [ClipperOffset.Constructor](/clipperlib/classes/ClipperOffset/ClipperOffset.Constructor.md)
+		- [ClipperOffset.Execute](/clipperlib/classes/ClipperOffset/ClipperOffset.Execute.md)
+		- [ClipperOffset.Clear](/clipperlib/classes/ClipperOffset/ClipperOffset.Clear.md)
+	  - [属性]
+        - [ClipperOffset.ArcTolerance](/clipperlib/classes/ClipperOffset/ClipperOffset.ArcTolerance.md)
+        - [ClipperOffset.MiterLimit](/clipperlib/classes/ClipperOffset/ClipperOffset.MiterLimit.md)		
+  - [函数]
+    - [Orientation](/clipperlib/functions/Orientation.md)
+	
