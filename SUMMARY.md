@@ -18,7 +18,7 @@
 	- [ZFillFunction](/clipperlib/types/ZFillFunction.md)
   - [类]()  
     - [ClipperBase](/clipperlib/classes/ClipperBase/ClipperBase.md)
-	  - [函数]
+	  - [函数]()
 	    - [ClipperBase.AddPath](/clipperlib/classes/ClipperBase/ClipperBase.AddPath.md)
 		- [ClipperBase.AddPaths](/clipperlib/classes/ClipperBase/ClipperBase.AddPaths.md)
 		- [ClipperBase.Clear](/clipperlib/classes/ClipperBase/ClipperBase.Clear.md)
