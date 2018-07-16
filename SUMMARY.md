@@ -42,7 +42,7 @@
 	  - [属性]()
         - [ClipperOffset.ArcTolerance](/clipperlib/classes/ClipperOffset/ClipperOffset.ArcTolerance.md)
         - [ClipperOffset.MiterLimit](/clipperlib/classes/ClipperOffset/ClipperOffset.MiterLimit.md)		
-  - [函数]
+  - [函数]()
     - [Area](/clipperlib/functions/Area.md)
 	- [CleanPolygon](/clipperlib/functions//CleanPolygon.md)
 	- [CleanPolygons](/clipperlib/functions/CleanPolygons.md)

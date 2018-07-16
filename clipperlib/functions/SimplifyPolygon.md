@@ -1,4 +1,4 @@
-### **ReversePath**
+### **SimplifyPolygon**
 
 ```
 Del.» function SimplifyPolygon(const Poly: TPath; FillType: TPolyFillType = pftEvenOdd): TPaths;

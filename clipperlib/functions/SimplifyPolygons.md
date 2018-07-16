@@ -1,4 +1,4 @@
-### **ReversePath**
+### **SimplifyPolygons**
 
 ```
 Del.» function SimplifyPolygons(const polys: TPaths; 

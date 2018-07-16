@@ -31,3 +31,8 @@ License, terms and conditions: Boost Software License
 [SourceForge](https://sourceforge.net/projects/polyclipping/)
 
 **参考内容：**
+1. The Library is based on but significantly extends Bala Vatti's polygon clipping algorithm as described in "A generic solution to polygon clipping", Communications of the ACM, Vol 35, Issue 7 (July 1992) pp 56-63.
+
+2. A section in "Computer graphics and geometric modeling: implementation and algorithms" by By Max K. Agoston (Springer, 2005) discussing Vatti Polygon Clipping was also helpful in creating the initial Clipper implementation.
+
+3. The paper titled "Polygon Offsetting by Computing Winding Numbers" by Chen & McMains (Paper no. DETC2005-85513, ASME 2005. Pages 565-575) contains helpful discussion on the complexities of polygon offsetting together with some solutions.
