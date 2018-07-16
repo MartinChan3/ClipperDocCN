@@ -1,3 +1,11 @@
-继承自：ClipperBase
-Clipper类将布尔运算内容(包含交并否异或)进行封装，称之为多边形裁剪；
-输入的多边形，不管是subject还是clip，都通过AddPath或者AddPaths方法传递给Clipper对象，最后使用Execute函数进行裁剪。多个布尔运算可以通过输入相同的多边形，然后反复执行execute函数来实现；
+### **Clipper.PreserveCollinear**
+
+```
+Del.» property PreserveCollinear: boolean; override;
+
+C++ » void PreserveCollinear(bool value);
+
+C#  » public bool PreserveCollinear { get {} set {} };
+```
+
+默认的，当输入的被裁剪和裁剪多边形的内容中三个或者更多的点是共线的，Clipper对象会在进行布尔运算之前对多余的共线点进行删除；当设定PreserveCollinear属性防止了这种行为，来允许共线的点的情况出现在结果当中；

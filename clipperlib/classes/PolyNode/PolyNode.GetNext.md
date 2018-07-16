@@ -1,3 +1,25 @@
-继承自：ClipperBase
-Clipper类将布尔运算内容(包含交并否异或)进行封装，称之为多边形裁剪；
-输入的多边形，不管是subject还是clip，都通过AddPath或者AddPaths方法传递给Clipper对象，最后使用Execute函数进行裁剪。多个布尔运算可以通过输入相同的多边形，然后反复执行execute函数来实现；
+### **PolyNode.GetNext**
+
+```
+Del.» function GetNext: TPolyNode;
+
+C++ » PolyNode* GetNext();
+
+C#  » public PolyNode GetNext();
+```
+
+该方法返回的PolyNode将会是第一个子对象，然后依次是下一个对象，否则是下一个对象。
+一个PolyTree可以很方便的被遍历，通过使用GetFirst()，然后接下来使用GetNext()直到最终返回一个空指针；
+
+```
+PolyTree polytree;
+//call to Clipper.Execute method here which fills 'polytree'
+ 
+PolyNode* polynode = polytree.GetFirst();
+while (polynode)
+{
+  //do stuff with polynode here
+   
+  polynode = polynode->GetNext();
+}
+```

@@ -1,3 +1,13 @@
-继承自：ClipperBase
-Clipper类将布尔运算内容(包含交并否异或)进行封装，称之为多边形裁剪；
-输入的多边形，不管是subject还是clip，都通过AddPath或者AddPaths方法传递给Clipper对象，最后使用Execute函数进行裁剪。多个布尔运算可以通过输入相同的多边形，然后反复执行execute函数来实现；
+### **PolyTree.Clear**
+
+```
+Del.» procedure Clear;
+
+C++ » void Clear();
+
+C#  » public void Clear();
+```
+
+该方法将删除PolyTree对象中的所有子对象。
+
+Clear方法一般不需要显式的调用。每次执行Clipper.Execute方法每次接受一个PolyTree参数，并在生成新的结果之前会自动清除其中的内容。同样的，PolyTree的析构函数会自动清理其内部的包含的PolyNode。

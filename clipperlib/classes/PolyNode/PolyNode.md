@@ -1,3 +1,5 @@
-继承自：ClipperBase
-Clipper类将布尔运算内容(包含交并否异或)进行封装，称之为多边形裁剪；
-输入的多边形，不管是subject还是clip，都通过AddPath或者AddPaths方法传递给Clipper对象，最后使用Execute函数进行裁剪。多个布尔运算可以通过输入相同的多边形，然后反复执行execute函数来实现；
+### **PolyNode**
+
+PolyNodes是被封装在PolyTree的容器中，同时提供了一个数据结构来代表由Excute()方法返回的多边形轮廓中的父子关系；
+
+一个PolyNode对象代表一个多边形；它的“IsHole”属性表明它是一个**外轮廓**还是一个**内孔**。PolyNodes可能包含任意数量的PolyNode子对象，一般为外轮廓的子对象是内轮廓，而内轮廓的子对象是（嵌套的）外轮廓；

@@ -9,6 +9,7 @@
 	- [IntPoint](/clipperlib/types/IntPoint.md)
 	- [Path](/clipperlib/types/Path.md)
 	- [Paths](/clipperlib/types/Paths.md)
+	- [InitOptions](/clipperlib/types/InitOptions.md)
 	- [IntRect](/clipperlib/types/IntRect.md)
 	- [ClipType](/clipperlib/types/ClipType.md)
 	- [PolyType](/clipperlib/types/PolyType.md)
@@ -42,5 +43,19 @@
         - [ClipperOffset.ArcTolerance](/clipperlib/classes/ClipperOffset/ClipperOffset.ArcTolerance.md)
         - [ClipperOffset.MiterLimit](/clipperlib/classes/ClipperOffset/ClipperOffset.MiterLimit.md)		
   - [函数]
+    - [Area](/clipperlib/functions/Area.md)
+	- [CleanPolygon](/clipperlib/functions//CleanPolygon.md)
+	- [CleanPolygons](/clipperlib/functions/CleanPolygons.md)
+	- [ClosedPathsFromPolyTree](/clipperlib/functions/ClosedPathsFromPolyTree.md)
+	- [MinkowskiDiff](/clipperlib/functions/MinkowskiDiff.md)
+	- [MinkowskiSum](/clipperlib/functions/MinkowskiSum.md)
+	- [OpenPathsFromPolyTree](/clipperlib/functions/OpenPathsFromPolyTree.md)
     - [Orientation](/clipperlib/functions/Orientation.md)
+	- [PointInPolygon](/clipperlib/functions/PointInPolygon.md)
+	- [PolyTreeToPaths](/clipperlib/functions/PolyTreeToPaths.md)
+	- [ReversePath](/clipperlib/functions/ReversePath.md)
+	- [ReversePaths](/clipperlib/functions/ReversePaths.md)
+	- [SimplifyPolygon](/clipperlib/functions/SimplifyPolygon.md)
+	- [SimplifyPolygons](/clipperlib/functions/SimplifyPolygons.md)
+	
 	
