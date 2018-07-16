@@ -14,7 +14,9 @@ Clipper Library（以下简称为Clipper库或者ClipperLib或Clipper）提供�
 **作者及版权:**Angus Johnson. Copyright © 2010-2014
 License, terms and conditions: Boost Software License
 
-![int](int.png)
+![int](int.png)   
+
+------
 
 **术语：**
 - 裁剪(Clipping):通常是指在二维平面上把一个图形在指定的矩形框以外的部分去除掉。在更广义的角度，指定的裁剪范围不一定要是一个矩形，可以是各种各样的多边形，甚至是多个多边形；同样的，我们一般裁剪指的是形态学上的“求交”，但是在Clipper库中裁剪可以实现4种布尔运算（求交、求和、求异、求异或）；
