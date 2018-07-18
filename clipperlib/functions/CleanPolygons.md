@@ -1,4 +1,4 @@
-### **CleanPolygon**
+### **CleanPolygons**
 
 ```
 Del.» function CleanPolygons(const Polys: TPaths; Distance: double = 1.415): TPaths;
