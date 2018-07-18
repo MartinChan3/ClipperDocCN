@@ -6,6 +6,6 @@ Clipper库是目前计算机图形届广为使用的图形处理库，可以用�
 Clipper库作者：Angus Johnson
 Website：[http://www.angusj.com]
 
-译者：Martin [e-mail](bycy0801@126.com)
+译者：Martin Chan <bycy0801@126.com>
 
 本文源文件来自[Clipper库](http://www.angusj.com/delphi/clipper.php)，英文版文档参见[ClipperLib Overview](http://www.angusj.com/delphi/clipper/documentation/Docs/Overview/_Body.htm)
