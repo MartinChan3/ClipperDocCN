@@ -4,6 +4,7 @@
 - [概览](OVERVIEW.md)
 - [结构]()
   - [预定义宏](/clipperlib/预定义宏.md)
+  - [取整](/clipperlib/Rounding.md)
   - [数据类型]()
     - [cInt](/clipperlib/types/cInt.md)
 	- [IntPoint](/clipperlib/types/IntPoint.md)
